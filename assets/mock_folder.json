@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "first_name": "Pierre",
+        "last_name": "Lene",
+        "email": "pierre.lene@wanadoo.com",
+        "main_address": {
+            "street": "rue de la Libération",
+            "number": "36",
+            "city": "Niort",
+            "city_code": "79000"
+        },
+        "income": 30000,
+        "phone": "0678799002",
+        "folder_num": "12345",
+        "situation": "Retraité",
+        "appointments": [
+            "25/03/22",
+            "15/03//22"
+        ],
+        "notes": "Il s'agit des notes prises lors du rendez-vous",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Isolation des combles",
+                "steps": [
+                    {
+                        "id": 1,
+                        "name": "Demander un devis auprès d'un artisan",
+                        "comment": "Commentaire personnalisé",
+                        "checked": 0,
+                        "works": [
+                            {
+                                "id": 1,
+                                "name": "Sélectionner des artisans certifiés RGE",
+                                "checked": 0
+                            },
+                            {
+                                "id": 2,
+                                "name": "Demander les devis",
+                                "checked": 0
+                            },
+                            {
+                                "id": 3,
+                                "name": "Choisir le devis qui m'intéresse",
+                                "checked": 0
+                            },
+                            {
+                                "id": 4,
+                                "name": "Vérifier que le devis est bien conforme à la réglementation",
+                                "checked": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Déclarer mes travaux à la mairie",
+                        "comment": "Commentaire personnalisé",
+                        "checked": 0,
+                        "works": [
+                            {
+                                "id": 1,
+                                "name": "Nom étape 1",
+                                "checked": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Pompe à chaleur Air/Eau",
+                "steps": [
+                    {
+                        "id": 1,
+                        "name": "Demander un devis auprès d'un artisan",
+                        "comment": "Commentaire personnalisé",
+                        "checked": 0,
+                        "works": [
+                            {
+                                "id": 1,
+                                "name": "Sélectionner des artisans certifiés RGE",
+                                "checked": 0
+                            },
+                            {
+                                "id": 2,
+                                "name": "Demander les devis",
+                                "checked": 0
+                            },
+                            {
+                                "id": 3,
+                                "name": "Choisir le devis qui m'intéresse",
+                                "checked": 0
+                            },
+                            {
+                                "id": 4,
+                                "name": "Vérifier que le devis est bien conforme à la réglementation",
+                                "checked": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
